@@ -6,14 +6,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyCsfkoYJfQzhbbO8XJvapMNvfeqi-FDGkI",
       authDomain: "movies-eb4df.firebaseapp.com",
       databaseURL: "https://movies-eb4df-default-rtdb.asia-southeast1.firebasedatabase.app",
       projectId: "movies-eb4df",
       storageBucket: "movies-eb4df.firebasestorage.app",
-      messagingSenderId: "679909787200",
-      appId: "1:679909787200:web:47a759f2656d08004fc1a5",
-      measurementId: "G-JTP1RR906S",
     ),
   );
   runApp(MyApp());
